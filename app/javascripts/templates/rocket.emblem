@@ -1,0 +1,8 @@
+.small-2.columns
+  dl.tabs.fuel-master: each fuels
+    dd
+      linkTo "fuel" this
+        = name
+
+.small-10.columns
+  = outlet

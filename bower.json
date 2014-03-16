@@ -1,0 +1,42 @@
+{
+  "name": "really",
+  "dependencies": {
+    "jquery": "2.0.3",
+    "ember": "*",
+    "ember-data": "1.0.0-beta.7",
+    "handlebars": "1.3.0",
+    "emblem": "*",
+    "foundation": "*",
+    "marked": "*",
+    "markdown": "*",
+    "highlightjs": "*"
+  },
+  "overrides": {
+    "modernizr": {
+      "main": "modernizr.js",
+      "dependencies": {}
+    },
+    "emblem": {
+      "main": "dist/emblem.js",
+      "dependencies": {}
+    },
+    "jquery-placeholder": {
+      "main": "jquery.placeholder.js",
+      "dependencies": {}
+    },
+    "marked": {
+      "main": "lib/marked.js",
+      "dependencies": {}
+    },
+    "markdown": {
+      "main": "lib/markdown.js",
+      "dependencies": {}
+    },
+    "highlightjs": {
+      "main": [
+        "highlight.pack.js",
+        "styles/solarized_dark.css"
+      ]
+    }
+  }
+}

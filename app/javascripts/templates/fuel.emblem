@@ -1,0 +1,6 @@
+.row
+  .small-6.columns
+    h1= name
+    Ember.TextArea valueBinding=caveats
+  .small-6.columns
+    section== caveats

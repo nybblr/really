@@ -1,0 +1,15 @@
+# SASS output.
+*.sass-cache
+
+# NPM packages folder.
+/node_modules
+
+# Brunch folder for temporary files.
+/tmp
+
+# Brunch output folder.
+/build
+
+# Bower stuff.
+/bower_components
+/components
