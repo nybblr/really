@@ -1,4 +1,8 @@
-window.App = Ember.Application.create()
+window.App = Ember.Application.create
+  ready: ->
+    window.socket = new Faye.Client $('meta[name="faye-url"]').attr('content')
+    Robin.Ember.connect(socket)
+    Robin.EmberAdapter.subscribe('rocket', 'fuel')
 
 App.Router.map ->
   @resource 'dashboard', path: '/'
