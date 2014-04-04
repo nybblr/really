@@ -9,10 +9,6 @@ App.Router.map ->
   @resource 'rocket', path: '/rockets/:rocket_id', ->
     @resource 'fuel', path: '/fuels/:fuel_id'
 
-# App.Store = DS.Store.extend
-#   revision: 14
-#   adapter: DS.FixtureAdapter
-
 App.ApplicationSerializer = DS.ActiveModelSerializer.extend({})
 
 App.Adapter = DS.RESTAdapter.extend

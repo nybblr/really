@@ -20,7 +20,7 @@ exports.config =
       precompile: true
       root: 'javascripts/templates'
       paths:
-        jquery: 'bower_components/jquery/jquery.js'
+        jquery: 'bower_components/jquery/dist/jquery.js'
         ember: 'bower_components/ember/ember.js'
         handlebars: 'bower_components/handlebars/handlebars.js'
         emblem: 'bower_components/emblem/dist/emblem.js'
