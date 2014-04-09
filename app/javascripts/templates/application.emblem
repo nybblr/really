@@ -9,17 +9,20 @@ nav.top-bar data-topbar="data-topbar"
   section.top-bar-section
     / Right Nav Section
     ul.right
-      li.active
-        a href="#" Right Button Active
       li.has-dropdown
-        a href="#" Right Button with Dropdown
-        ul.dropdown
-          li
-            a href="#" First link in dropdown
+        a href="#" Rockets
+      li.has-dropdown
+        a href="#" Fuels
+        / ul.dropdown
+        /   li
+        /     a href="#" Atlas V
+        /     a href="#" Apollo 13
+      li.has-form
+        a.button.alert href="#" Launch Rocket
 
     / Left Nav Section
     ul.left
       li
-        a href="#" Left Nav Button
+        a href="#" Explosions
 
 = outlet
