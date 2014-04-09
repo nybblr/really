@@ -1,6 +1,19 @@
 .row
   .small-6.columns
-    h1= name
-    Ember.TextArea valueBinding=caveats
+    fieldset
+      legend Edit {{name}}
+      label Caveats
+      Ember.TextArea value=caveats
+      label Formula
+      Ember.TextField value=formula
+    a.button.expand class=isDirty:success:disabled click="save" Update
   .small-6.columns
-    section== caveats
+    h2 Profile
+    ' The rocket fuel
+    strong= name
+    '
+    em= caveats
+    '
+    ' because it is highly refined
+    strong= formula
+    ' .
